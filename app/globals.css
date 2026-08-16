@@ -31,3 +31,22 @@
 @media(max-width:560px){.site-header{height:68px;padding:0 14px}.brand-mark{width:34px;transform:rotate(-11deg) scale(.82)}.brand-copy b{font-size:21px}.brand-copy small{font-size:6.5px}.nav{top:68px}.nav-actions{gap:5px}.divider{display:none}.locale{padding:0 6px}.locale span{font-size:17px}}
 .booking-tabs button span{display:grid;place-items:center}.booking-tabs button span svg{width:26px;height:26px;stroke-width:1.8}.service-card span{display:grid;place-items:center}.service-card span svg{width:50px;height:50px;stroke-width:1.55}.field-icon{width:20px;height:20px;margin-left:auto;color:#092761;stroke-width:1.8;flex:0 0 auto}.swap{display:grid;place-items:center}.swap svg{width:21px;height:21px;stroke-width:1.8}.trust-strip span{display:grid;place-items:center}.trust-strip span svg{width:48px;height:48px;stroke-width:1.65}.nav-more svg,.locale svg{stroke-width:1.8;flex:0 0 auto}
 @media(max-width:780px){.service-card span svg{width:42px;height:42px}}
+
+/* Professional, undistorted travel photography */
+.sprite{background-repeat:no-repeat;background-size:cover;background-position:center}
+.s1{background-image:url('/travel-kaaba.jpg');background-position:center 58%}
+.s2{background-image:url('/travel-flight.jpg');background-position:center}
+.s3{background-image:url('/travel-hotel.jpg');background-position:center}
+.s4{background-image:url('/travel-transfer.jpg');background-position:center 62%}
+.s6{background-image:url('/travel-baggage.jpg');background-position:center}
+.s7{background-image:url('/travel-dates.jpg');background-position:center}
+.s8{background-image:url('/travel-app.jpg');background-position:center}
+.mini-card .sprite{height:150px;transition:transform .35s ease}
+.mini-card:hover .sprite{transform:scale(1.025)}
+.enhance-grid article{overflow:hidden;background:#fff;transition:box-shadow .2s ease,transform .2s ease}
+.enhance-grid article:hover{transform:translateY(-3px);box-shadow:0 12px 24px rgba(7,34,75,.1)}
+.enhance-grid .sprite,.insurance-visual{height:118px;margin:0 -5px 10px;border-radius:8px}
+.insurance-visual{display:grid;place-items:center;background:linear-gradient(145deg,#edf7ff,#d9efff)}
+.insurance-visual svg{width:70px;height:70px;color:#0870dd;stroke-width:1.5;filter:drop-shadow(0 7px 8px rgba(2,78,155,.13))}
+.app-card{position:relative}.app-card .phone{width:118%;height:112%;margin:-7% 0 0 -18%;background-size:cover;background-position:center top;filter:drop-shadow(0 10px 14px rgba(5,31,72,.2))}
+.umrah-card>.sprite{transition:transform .6s ease}.umrah-card:hover>.sprite{transform:scale(1.025)}
