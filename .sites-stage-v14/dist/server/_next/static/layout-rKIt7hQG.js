@@ -1,0 +1,1 @@
+var e={title:`Log In — Aerowisata`,description:`Log in to manage your Aerowisata travel bookings and journeys.`};function t({children:e}){return e}export{t as default,e as metadata};
